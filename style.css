@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(https://preview.redd.it/iyaacpwpwfr41.png?width=1080&crop=smart&auto=webp&s=1b383ed1ff3a72e323517bcd031cbebddd8dcaa6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    
+   
+}
+
+nav {
+width : 100vw;
+background-color: transparent
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; 
+    background-color: transparent; 
+    padding: 1em; 
+    gap: 75px;
+}
+
+
+nav ul a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+nav ul li {
+    color:aliceblue;
+    list-style: none;
+    font-size: 50px;
+  cursor: pointer;
+    
+}
+
+nav ul a{
+    font-size: 24px;
+
+ }
+
+ nav ul li img {
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+    
+ }
+
+nav ul a:hover {
+    color:rgb(35, 205, 208);
+    transition: 0.5s;
+    
+}
+
+nav ul li:hover {
+    color: rgb(35, 205, 208);
+    transition: 0.5s;
+    
+}
+
+
+section {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.container {
+    background-color: transparent;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width : 100vw;
+    height: 300px;
+    display: flex;
+    gap: 50pxpx;
+}
+
+.container .card {
+    height : 250px;
+    width : 400px;
+    color : black;
+    padding-bottom :250px
+}
+
+.container .card img {
+width: 400px;
+height: 300px;
+object-fit: cover;
+}
+
+.container .card p {
+    color: white;
+}
